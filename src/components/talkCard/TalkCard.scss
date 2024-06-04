@@ -1,0 +1,162 @@
+@import "../../_globalColor";
+
+.parentContainer{
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  overflow: hidden;
+}
+.container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  gap: 2rem;
+  animation: marquee 8s linear infinite;
+}
+
+.container:hover{
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0%{
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Rectangle Card Layout */
+.rectangle {
+  min-width: 500px;
+  height: 300px;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-top: 50px;
+  z-index: 20;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  will-change: transform;
+  cursor: pointer;
+}
+
+
+.dark-rectangle {
+  
+}
+.mask {
+  clip: rect(0px, 460px, 220px, 0px);
+  border-radius: 4px;
+  position: absolute;
+}
+
+
+.carousalIcon{
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.profilePicture{
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 30px;
+  box-shadow: 2px 3px 24px 0px rgba(255,255,255,1);
+  object-fit: cover;
+}
+
+.cardHeader{
+  flex: 4;
+  display: flex;
+}
+
+.cardHeaderLeft{
+  flex:5;
+}
+
+.cardHeaderRight{
+  flex:6;
+  padding-top: 20px;
+}
+.cardBody{
+  flex: 6;
+  display: flex;
+  justify-content: center;
+}
+
+.cardMessageBox{
+  width: 400px;
+  height: 130px;
+  border-radius: 5px;
+  border: 2px double #2d3851;
+  font-size: 15px;
+  padding: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.profilePic{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .card-title {
+    font-size: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .mask {
+    clip-path: none;
+    position: relative;
+  }
+  .talk-card-title {
+    margin-top: 30px;
+  }
+  .talk-card-image {
+    width: 100%
+  }
+
+  .talk-button {
+    background-color: $buttonColor;
+    color: $textColorDark;
+    width: 90px;
+    padding: 10px 18px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+  }
+  .talk-button:hover {
+    background: $buttonHover;
+  }
+  .card-footer-button-div {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .square {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+}
