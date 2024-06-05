@@ -19,40 +19,33 @@ export default function TalkCard({talkDetails}) {
       testimonial: "Congratulations on the successful delivery of IPS Rate Changes that went Live yesterday. Got feedback from the client for exceptional Bug-Free Delivery, Late Night Support up to 4 AM (almost Morning) from the Protection Team. There were a lot of Logical Changes and iterations from the client still the delivery was smooth. Thank you for such Amazing Efforts and Dedication. #CreatingStandards",
     },
     {
+      name: "Akshay Bhopani",
+      title: "SDE-2",
+      company: "DePronto Infotech",
+      profilePic: "./images/Akshay.jpg",
+      testimonial: "Congratulations on making the Thank You Revamp Project Live today. Over 1 year of Development Efforts and 64 Commits later the UI looks awesome and the new medical scheduling features are running smoothly.",
+    },
+    {
       name: "Binit Jha",
       title: "Team Leader",
       company: "DePronto Infotech",
       profilePic: "./images/Binit.jpg",
-      testimonial: "Above & Beyond, I would like to praise the Roshan & entire protection squad for delivering a critical project in crunched timelines and multiple challenges with utmost dedication and commitment.The efforts are truly appreciated",
-    },
-    {
-      name: "Mohd. Zuber",
-      title: "SDE-II",
-      company: "Google",
-      profilePic: "./images/Zuber.jpg",
-      testimonial: "It was a privilege to manage Roshan, whose outstanding proficiency in React and JavaScript played a pivotal role in the success of our projects. Roshan's in-depth expertise in React JS was instrumental in driving innovation and delivering high-quality solutions. A dedicated and talented individual, Roshan consistently demonstrated efficiency and creativity in handling complex tasks. I wholeheartedly recommend Roshan for any role demanding expertise in React and JavaScript – an asset to any organization or team.",
-    },
-    {
-      name: "Sushrut Mishra",
-      title: "CEO",
-      company: "VCMediaLabs",
-      profilePic: "./images/Sushrut.jpg",
-      testimonial: "I would highly recommend Roshan for any role that requires to solve any complex problem be it frontend or backend. Thanks Roshan for sticking with us and making this project possible.",
+      testimonial: "Above & Beyond, I would like to praise the Mukul & entire protection squad for delivering a critical project in crunched timelines and multiple challenges with utmost dedication and commitment.The efforts are truly appreciated",
     },
     {
       name: "Kewal Rathod",
       title: "Team Lead",
-      company: "Unico",
+      company: "Depronto Infotech",
       profilePic: "./images/Kewal.jpg",
-      testimonial: "Exceptional Skills, I would like to praise Kaval and Roshan for their contribution to the recent projects. Your unbeatable commitment & problem-solving attitude helped deliver the highest-priority  & most delicate projects in challenging timelines. Khabib of Team Protection",
+      testimonial: "Exceptional Skills, I would like to praise Kaval and Mukul for their contribution to the recent projects. Your unbeatable commitment & problem-solving attitude helped deliver the highest-priority  & most delicate projects in challenging timelines. Khabib of Team Protection",
     },
     {
-      name: "Aniket Rai",
-      title: "SDE-1",
-      company: "Gupshup",
-      profilePic: "./images/Aniket.jpg",
-      testimonial: "I would like to praise Roshan and Suraj for showing exceptional team skills by coordinating between UI and Backend team and resolving the major issues by themselves, making the project move forward by catering to the dynamic changes and issues rapidly. Keep up the good work. ✨✨",
-    },
+      name: "Kewal Rathod",
+      title: "Team Lead",
+      company: "Depronto Infotech",
+      profilePic: "./images/Kewal.jpg",
+      testimonial: "I Would Like To Praise Anshul & Mukul For Taking Initative For Improving The Current Documentation & Training Process. Keep Up The Good Work :)",
+    }
   ]
   
   

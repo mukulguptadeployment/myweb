@@ -20,25 +20,25 @@ const illustration = {
 };
 
 const greeting = {
-  username: "RoshanCodes_",
-  title: "Hey, I'm Roshan",
+  username: "Mukul.Gupta_",
+  title: "Hey, I'm Mukul",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web Applications with JavaScript / ReactJS / NextJS / NodeJS / and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/15zsJ8iDf54P8-GqKC0z9VwUbN9_N_yVl/view", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1LSrMDWoFly_E4CKCNhQutYWdXtR3DEij/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/RoshanSharmaCodes/",
-  linkedin: "https://www.linkedin.com/in/roshancodes/",
-  gmail: "roshan.rks2812000@gmail.com",
-  hashnode: "https://hashnode.com/@roshansharmacodes",
-  leetcode: "https://leetcode.com/RoshanCodes_/",
-  instagram: "https://www.instagram.com/roshan.codes/",
+  github: "https://github.com/mukulguptadeployment",
+  linkedin: "https://www.linkedin.com/in/mukul-gupta-6a07a833/",
+  gmail: "mukulgupta257@gmail.com",
+  hashnode: "",
+  leetcode: "",
+  instagram: "https://www.instagram.com/mukul.gupta__/",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -92,12 +92,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "Next.JS",
+      fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-database"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -109,10 +109,10 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Integral University",
-      logo: require("./assets/images/Integral.png"),
-      subHeader: "Master in Computer Application | CGPA 8.2",
-      duration: "Batch 2020 - 2022",
+      schoolName: "Chandigarh University",
+      logo: require("./assets/images/cu.jpg"),
+      subHeader: "Master in Computer Application | CGPA 7.4",
+      duration: "Batch 2022 - 2024",
       desc: "Have Developed Web Applications Like :-",
       descBullets: [
         "Invoice Generator for Inventory & Store Management",
@@ -120,20 +120,12 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Lucknow University | CGPA 7",
-      logo: require("./assets/images/Lucknow.jpg"),
+      schoolName: "Guru Gobind Singh Indraprastha University | CGPA 7.4",
+      logo: require("./assets/images/ipu.png"),
       subHeader: "Bachelors in Computer Application",
-      duration: "Batch 2017 - 2020",
+      duration: "Batch 2018 - 2021",
       desc: "Have Developed Web Applications Like :-",
       descBullets: ["Local Mart Cart App"]
-    },
-    {
-      schoolName: "Kendriya Vidyalaya IIM | CGPA 8",
-      logo: require("./assets/images/KV.png"),
-      subHeader: "Majors in Physics, Chemistry & Maths",
-      duration: "Batch 2015 - 2017",
-      desc: "",
-      descBullets: []
     }
   ]
 };
@@ -153,7 +145,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -165,21 +157,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Jr. Software Engineer",
-      company: "Analyze Infotech",
-      companylogo: require("./assets/images/Analyze.png"),
-      date: "Feburary 2021 – March 2022",
-      descBullets: [
-        "Developed 2 Operational websites for oraganizations showcasing their business and capturing leads.",
-        "Worked on the optimization of customer facing live websites, with the help of GTMatrix.",
-        "Have contributed in internal component libraries, by creating responsive reusable components."
-      ]
-    },
-    {
       role: "Sr. Software Engineer",
-      company: "DePronto Infotech",
+      company: "Deronto Infotech Pvt. Ltd.",
       companylogo: require("./assets/images/DePronto.jpg"),
-      date: "April 2022 – Present",
+      date: "May 2022 – Present",
       descBullets: [
         "Developed 3 customer-facing applications for ICICI Prudential & HDFC Life with React, NodeJS, and AEM with 2 million Active Users.",
         "Contributed in the R&D of Product enhancement and optimization, and also to streamline the process of CI/CD Pipelines.",
@@ -219,13 +200,35 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/aperturelogo.webp"),
+      projectName: "Aperture Gear Studio",
+      projectDesc: "Organisation Management Software with company's Portfolio.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.aperturegearstudio.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/carapp.ico"),
+      projectName: "W16-Car Management",
+      projectDesc: "W16 Car Management App that helps you keep record of your Vehical",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://w16-car.vercel.app/login"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/arion.ico"),
+      projectName: "Arion Frost",
+      projectDesc: "Keyboard website Showcasing Meckeys Best Keyboard",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://arion.in/"
         }
       ]
     }
@@ -263,19 +266,6 @@ const achievementSection = {
         }
       ]
     },
-    {
-      title: "Scholarship by CETI",
-      subtitle:
-        "CETI starts with objective of coaching and mentoring deserving students.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "Mentorship by Google SDE",
-          url: "https://www.cetigroup.org/mentors/#lg=1&slide=0"
-        }
-      ]
-    },
 
     {
       title: "Hacker Rank",
@@ -286,12 +276,12 @@ const achievementSection = {
         {name: "Certification", url: ""},
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: "/#"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -339,7 +329,7 @@ const blogSection = {
         "Web applications have become an integral part of our lives, offering convenience and accessibility. However, the increasing dependence on web applications has also led to a rise in online attacks targeting their vulnerabilities."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -371,22 +361,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? Always open to opportunities.",
-  number: "+91-7007558705",
-  email_address: "roshan.rks2812000@gmail.com"
+  number: "+91-8700691503",
+  email_address: "mukulgupta257@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "RoshanCodes_", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
