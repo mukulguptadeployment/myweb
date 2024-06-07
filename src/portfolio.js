@@ -157,7 +157,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Sr. Software Engineer",
+      role: "Sr. Software Developer",
       company: "Deronto Infotech Pvt. Ltd.",
       companylogo: require("./assets/images/DePronto.jpg"),
       date: "May 2022 – Present",
@@ -168,6 +168,17 @@ const workExperiences = {
         "Engineered a automation script that streamlines the process of creating UAT and Production ready builds.",
         "Took active part in Security Operations for client's infrastructure & various security migration projects to safeguard vulnerability issues.",
         "Lead the recurring IT Disaster Recovery Routine with the team of 4 Developers."
+      ]
+    },{
+      role: "Frontend Developer",
+      company: "Superlative Creations",
+      companylogo: require("./assets/images/superlogo.png"),
+      date: "March 2021 – April 2022",
+      descBullets: [
+        "Designed and developed an E-commerce Sports Store using technologies like MongoDB React and NodeJS.",
+        "Collaborated with client and helped them to get best out of projects.",
+        "Managing Team of 4 Developers.",
+        "Helping Developers with their queries and managing client for update of projects."
       ]
     }
   ]
